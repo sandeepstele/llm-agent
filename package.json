@@ -1,0 +1,15 @@
+{
+  "name": "gyaansetu-ai-assistant",
+  "version": "2.8.0",
+  "description": "Advanced AI Assistant with Multi-Tool Capabilities",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["ai", "assistant", "chat", "llm"],
+  "author": "Gaurav Tomar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
