@@ -996,7 +996,7 @@ class GyaanSetu {
     showWelcomeMessage() {
         const conv = this.state.conversations.get(this.state.currentConversationId);
         if (conv && conv.messages.length === 0) {
-            this.addMessage('assistant', 'Welcome to GyaanSetu! How can I assist you?');
+            this.addMessage('assistant', 'Welcome to LLM Assistant! How can I assist you?');
         }
     }
 
